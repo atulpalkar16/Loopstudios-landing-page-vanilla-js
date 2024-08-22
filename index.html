@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- JS -->
+  <script defer src="script.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- header -->
+  <div class="header-wrapper">
+    <div class="bg-header">
+      <header class="header container">
+        <!-- navbar -->
+        <nav class="navbar">
+          <figure class="z-index"><img src="images/logo.svg" alt="logo image"></figure>
+          <ul class="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+
+          <button class="ham-btns btn z-index">
+            <img src="images/icon-hamburger.svg" class="ham-btn btn-open" alt="icon-hamburger">
+            <img src="images/icon-close.svg"     class="ham-btn btn-close hidden" alt="icon-close ">
+          </button>
+        </nav> <!--navbar ends her-->
+        
+        <main class="hero">
+          <h1 class="heading hero-heading">Immersive Experiences that deliver</h1>
+        </main>
+      </header> <!--header ends here-->
+
+      <!-- movile nav -->
+      <ul class="nav-links mobile-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- shwocase -->
+  <div class="showcase-wrapper">
+    <article class="showcase">
+      <div class="showcase-container container">
+        <figure class="showcase-img"><img src="images/desktop/image-interactive.jpg" alt=""></figure>
+        <figcaption class="showcase-text">
+          <h2 class="head-text showcase-heading">The leader in interactive vr</h2>
+          <p class="sub-text">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+        </figcaption>
+      </div>
+    </article>
+  </div>
+
+  <!-- galarie -->
+   <div class="galarie-wrapper">
+    <!-- galarie heading -->
+    <div class="galarie-heading container">
+      <h3 class="head-text">Our Creations</h3>
+      <button class="btn-outline">see All</button>
+    </div>
+
+    <!-- grid -->
+     <section class="galarie-grid container">
+        <figure class="image-wrapper">
+          <img src="images/desktop/image-deep-earth.jpg" alt="deep Earth">
+          <figcaption class="caption"> <h3 class="caption-heading head-text">Deep <span>Earth</span> </h3> </figcaption>
+        </figure>
+
+        <figure class="image-wrapper">
+          <img src="images/desktop/image-night-arcade.jpg" alt="Night Arcade">
+          <figcaption class="caption"> <h3 class="caption-heading head-text">Night <span>Arcade</span> </h3> </figcaption>
+        </figure>
+
+        <figure class="image-wrapper">
+          <img src="images/desktop/image-soccer-team.jpg" alt="Soccer team">
+          <figcaption class="caption"> <h3 class="caption-heading head-text">Soccer <span>Team</span> </h3> </figcaption>
+        </figure>
+
+        <figure class="image-wrapper">
+          <img src="images/desktop/image-grid.jpg" alt="grid">
+          <figcaption class="caption"> <h3 class="caption-heading head-text">The <span>Grid</span> </h3> </figcaption>
+        </figure>
+        
+        <figure class="image-wrapper">
+          <img src="images/desktop/image-from-above.jpg" alt="above vr">
+          <figcaption class="caption"> <h3 class="caption-heading head-text">From Up <span>Above Vr</span> </h3> </figcaption>
+        </figure>
+        
+        <figure class="image-wrapper">
+          <img src="images/desktop/image-pocket-borealis.jpg" alt="pocket borealis">
+          <figcaption class="caption"> <h3 class="caption-heading head-text">pocket <span>Borealis</span> </h3> </figcaption>
+        </figure>
+        
+        <figure class="image-wrapper">
+          <img src="images/desktop/image-curiosity.jpg" alt="curiosity">
+          <figcaption class="caption"> <h3 class="caption-heading head-text"> The <span>curiosity</span> </h3> </figcaption>
+        </figure>
+        
+        <figure class="image-wrapper">
+          <img src="images/desktop/image-fisheye.jpg" alt="fisheye">
+          <figcaption class="caption"> <h3 class="caption-heading head-text"> The <span>Fisheye</span> </h3> </figcaption>
+        </figure>
+
+     </section>
+   </div> <!--galarie ends here-->
+
+   <!-- footer -->
+    <div class="footer-wrapper">
+      <footer class="footer container">
+
+        <section class="left">
+          <figure class="footer-logo"><img src="images/logo.svg" alt="logo svf"></figure>
+          <ul class="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Event</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </section>
+        <section class="right">
+          <ul class="nav-links">
+            <li><a href="#"><img src="images/icon-facebook.svg" alt=""></a></li>
+            <li><a href="#"><img src="images/icon-instagram.svg" alt=""></a></li>
+            <li><a href="#"><img src="images/icon-pinterest.svg" alt=""></a></li>
+            <li><a href="#"><img src="images/icon-twitter.svg" alt=""></a></li>
+          </ul>
+          <p class="sub-text">© 2021 Loopstudios. All rights reserved.</p>
+        </section>
+      </footer>
+    </div>
+  
+ 
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
